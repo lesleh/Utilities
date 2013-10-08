@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tolower", "tolower\tolower.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "choose", "choose\choose.csproj", "{0239D50C-34D0-4905-A301-AE02A278F6C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data_uri", "data_uri\data_uri.csproj", "{535CCF7A-13B5-4C19-AD75-234AFE39DFA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,6 +23,10 @@ Global
 		{4D29425D-06AE-41C6-A814-010E5E5F863F}.Debug|x86.Build.0 = Debug|x86
 		{4D29425D-06AE-41C6-A814-010E5E5F863F}.Release|x86.ActiveCfg = Release|x86
 		{4D29425D-06AE-41C6-A814-010E5E5F863F}.Release|x86.Build.0 = Release|x86
+		{535CCF7A-13B5-4C19-AD75-234AFE39DFA9}.Debug|x86.ActiveCfg = Debug|x86
+		{535CCF7A-13B5-4C19-AD75-234AFE39DFA9}.Debug|x86.Build.0 = Debug|x86
+		{535CCF7A-13B5-4C19-AD75-234AFE39DFA9}.Release|x86.ActiveCfg = Release|x86
+		{535CCF7A-13B5-4C19-AD75-234AFE39DFA9}.Release|x86.Build.0 = Release|x86
 		{867936AD-BD23-44A1-A9B1-9257CB2B9465}.Debug|x86.ActiveCfg = Debug|x86
 		{867936AD-BD23-44A1-A9B1-9257CB2B9465}.Debug|x86.Build.0 = Debug|x86
 		{867936AD-BD23-44A1-A9B1-9257CB2B9465}.Release|x86.ActiveCfg = Release|x86
