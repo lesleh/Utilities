@@ -12,5 +12,6 @@ find . -type d ! -iname ".*" -maxdepth 1 | while read line; do
 
 	rm -f $INSTALL_DIR/$PROJECT
 	cp "$PROJECT/bin/Release/$PROJECT.exe" "$INSTALL_DIR/$PROJECT.exe"
+	chmod -x "$INSTALL_DIR/$PROJECT.exe" # The .exe isn't directly executable
 	ln -s $MONO_SHIM $INSTALL_DIR/$PROJECT
 done
