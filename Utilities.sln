@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data_uri", "data_uri\data_u
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rot13", "rot13\rot13.csproj", "{48B284D7-14E7-4C9B-B833-7AC67DEF6B84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "random", "random\random.csproj", "{D8E2FDA6-AB66-4105-B55A-CCB3159FE739}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,6 +39,10 @@ Global
 		{867936AD-BD23-44A1-A9B1-9257CB2B9465}.Debug|x86.Build.0 = Debug|x86
 		{867936AD-BD23-44A1-A9B1-9257CB2B9465}.Release|x86.ActiveCfg = Release|x86
 		{867936AD-BD23-44A1-A9B1-9257CB2B9465}.Release|x86.Build.0 = Release|x86
+		{D8E2FDA6-AB66-4105-B55A-CCB3159FE739}.Debug|x86.ActiveCfg = Debug|x86
+		{D8E2FDA6-AB66-4105-B55A-CCB3159FE739}.Debug|x86.Build.0 = Debug|x86
+		{D8E2FDA6-AB66-4105-B55A-CCB3159FE739}.Release|x86.ActiveCfg = Release|x86
+		{D8E2FDA6-AB66-4105-B55A-CCB3159FE739}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = toupper\toupper.csproj
