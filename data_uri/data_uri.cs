@@ -28,12 +28,30 @@ namespace data_uri
 
 		private static string GetMimeType (string filename)
 		{
+			switch(Environment.OSVersion.Platform) {
+			case PlatformID.Win32NT:
+				return GetMimeTypeWindows(filename);
+			case PlatformID.MacOSX:
+			case PlatformID.Unix:
+				return GetMimeTypeUnix(filename);
+			default:
+				throw new NotImplementedException("Mime type detection not implemented on this platform.");
+			}
+		}
+
+		private static string GetMimeTypeUnix (string filename)
+		{
 			ProcessStartInfo startInfo = new ProcessStartInfo("file", "--mime-type --brief \"" + filename + "\"");
 			startInfo.UseShellExecute = false;
 			startInfo.RedirectStandardOutput = true;
 
 			Process p = Process.Start(startInfo);
 			return p.StandardOutput.ReadToEnd().Trim();
+		}
+
+		private static string GetMimeTypeWindows (string filename)
+		{
+			throw new NotImplementedException("Not implented for Windows yet.");
 		}
 
 		private static void DataUri (String filename, TextWriter writer)
