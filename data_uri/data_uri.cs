@@ -29,13 +29,11 @@ namespace data_uri
 		private static string GetMimeType (string filename)
 		{
 			switch(Environment.OSVersion.Platform) {
-			case PlatformID.Win32NT:
-				return GetMimeTypeWindows(filename);
 			case PlatformID.MacOSX:
 			case PlatformID.Unix:
 				return GetMimeTypeUnix(filename);
 			default:
-				throw new NotImplementedException("Mime type detection not implemented on this platform.");
+				return MimeMapping.GetMimeMapping(filename);
 			}
 		}
 
@@ -47,11 +45,6 @@ namespace data_uri
 
 			Process p = Process.Start(startInfo);
 			return p.StandardOutput.ReadToEnd().Trim();
-		}
-
-		private static string GetMimeTypeWindows (string filename)
-		{
-			throw new NotImplementedException("Not implented for Windows yet.");
 		}
 
 		private static void DataUri (String filename, TextWriter writer)
