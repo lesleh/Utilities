@@ -16,7 +16,7 @@ namespace rot13
 		{
 			char[] array = value.ToCharArray();
 			for(int i = 0; i < array.Length; i++){
-				int number = (int)text[i];
+				int number = (int)value[i];
 				if(number >= 'a' && number <= 'm' || number >= 'A' && number <= 'M') {
 					number += 13;
 				} else if(number >= 'm' && number <= 'z' || number >= 'M' && number <= 'Z') {
