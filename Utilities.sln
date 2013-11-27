@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rot13", "rot13\rot13.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "random", "random\random.csproj", "{D8E2FDA6-AB66-4105-B55A-CCB3159FE739}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wordwrap", "wordwrap\wordwrap.csproj", "{3159945D-AB83-4A6D-8402-8ADD60AADCE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -23,6 +25,10 @@ Global
 		{0239D50C-34D0-4905-A301-AE02A278F6C5}.Debug|x86.Build.0 = Debug|x86
 		{0239D50C-34D0-4905-A301-AE02A278F6C5}.Release|x86.ActiveCfg = Release|x86
 		{0239D50C-34D0-4905-A301-AE02A278F6C5}.Release|x86.Build.0 = Release|x86
+		{3159945D-AB83-4A6D-8402-8ADD60AADCE4}.Debug|x86.ActiveCfg = Debug|x86
+		{3159945D-AB83-4A6D-8402-8ADD60AADCE4}.Debug|x86.Build.0 = Debug|x86
+		{3159945D-AB83-4A6D-8402-8ADD60AADCE4}.Release|x86.ActiveCfg = Release|x86
+		{3159945D-AB83-4A6D-8402-8ADD60AADCE4}.Release|x86.Build.0 = Release|x86
 		{48B284D7-14E7-4C9B-B833-7AC67DEF6B84}.Debug|x86.ActiveCfg = Debug|x86
 		{48B284D7-14E7-4C9B-B833-7AC67DEF6B84}.Debug|x86.Build.0 = Debug|x86
 		{48B284D7-14E7-4C9B-B833-7AC67DEF6B84}.Release|x86.ActiveCfg = Release|x86
@@ -45,6 +51,6 @@ Global
 		{D8E2FDA6-AB66-4105-B55A-CCB3159FE739}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = toupper\toupper.csproj
+		StartupItem = wordwrap\wordwrap.csproj
 	EndGlobalSection
 EndGlobal

@@ -20,6 +20,7 @@
     <WarningLevel>4</WarningLevel>
     <Externalconsole>true</Externalconsole>
     <PlatformTarget>x86</PlatformTarget>
+    <Commandlineparameters>"ljkdfs lfkjdslkjflksd lsflkslk jsfdlkj dsflkfj fsdlkjf lsdkjf lsdkjf lksdjf lsdkf jlsdkf"</Commandlineparameters>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <DebugType>full</DebugType>
@@ -29,13 +30,14 @@
     <WarningLevel>4</WarningLevel>
     <Externalconsole>true</Externalconsole>
     <PlatformTarget>x86</PlatformTarget>
+    <Commandlineparameters>"lkfjdslk lkjfslkds lkfjdslk lkjfslkds lkfjdslk lkjfslkds lkfjdslk lkjfslkds lkfjdslk lkjfslkds lkfjdslk lkjfslkds lkfjdslk lkjfslkds lkfjdslk lkjfslkds"</Commandlineparameters>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wordwrap.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
